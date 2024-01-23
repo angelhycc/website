@@ -1,0 +1,90 @@
+@import 'loaders.css/src/animations/line-scale-pulse-out-rapid.scss';
+
+.loader-hidden {
+    display: none;
+}
+
+.loader-active {
+    display: block;
+}
+
+.contact-form{
+    width: 100%;
+    margin-top: 20px;
+    ul{
+        padding: 0;
+        margin: 0;
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeIn 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+        li.half{
+            width: 49%;
+            margin-left: 2%;
+            float:left;
+            clear:none;
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+input[type='text'],
+input[type='email'] {
+    font-family: sans-serif;
+    width: 100%;
+    border: 0;
+    background-color: lightyellow;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+::placeholder {
+    font-family: sans-serif;
+}
+
+textarea {
+    font-family: sans-serif;
+    width: 100%;
+    border: 0;
+    background-color: lightyellow;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.flat-button {
+    color: black;
+    background: 0 0 ;
+    font: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid black;
+    margin-top: 25px;
+    float: right;
+    border-radius: 4px;
+    // animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+}

@@ -1,0 +1,24 @@
+@use "sass:math";
+.text-animate{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s ;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+.text-animate-hover {
+    min-width: 10px;
+    animation-fill-mode: both;
+    display: inline-block;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: beige;
+    }
+}
+
+@for $i from 15 through 19 {
+    .text-animate._#{$i}{
+        animation-delay: #{math.div($i, 15)}s;
+    }
+}

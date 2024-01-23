@@ -1,0 +1,65 @@
+.home-page{
+    .text-zone {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+        z-index: -1;
+    }
+
+    h1 {
+        color: #e1eeff;
+        font-size: 56px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+    .flat-button{
+        color: #4a2b13;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1.5px solid #4a2b13;
+        border-radius: 25px;
+        margin-top: 40px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        &:hover{
+            background-color: #4a2b13;
+            color: white;
+        }
+    }
+    ._1 {
+        top: 8%;
+        left: 10%;
+    }
+
+    ._2 {
+        top: 15%;
+        left: 60%;
+    }
+}
+
+.taipei{
+            position: fixed;
+            bottom: -1px;
+            width: 98%;
+            right: 0px;
+            opacity: 0;
+            transform-style: preserve-3d;
+            animation: fadeIn 1s forwards;
+            animation-delay: 1s;
+            // left: 50%;
+            //     opacity: 0;
+            //     width: 32px;
+            //     height: auto;
+            //     animation: rotateIn 1s linear both;
+            //     animation-delay: 1.4s;
+}
