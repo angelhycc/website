@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://angelhycc.github.io/website/",
+  "homepage": "https://angelhycc.github.io/website",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
