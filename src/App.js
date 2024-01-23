@@ -12,12 +12,12 @@ import GamePage from './components/Game';
 
 
 function App() {
-  console.log('load')
+  console.log('here')
   return (
     <>
     <Routes>
     {/* <Route path='test' element={<LandingPage/>}/> */}
-    <Route path='/' element={<Layout/>} >
+    <Route path='' element={<Layout/>} >
       <Route index element={<Home />} />
       <Route path='about' element={<About />}/>
       <Route path='projects' element={<Projects/>}>
